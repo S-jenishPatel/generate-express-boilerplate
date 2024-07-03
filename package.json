@@ -1,0 +1,25 @@
+{
+  "name": "generate-express-boilerplate",
+  "version": "1.1.3",
+  "description": "A quick and simple boilerplate for an Express app",
+  "main": "index.js",
+  "bin": {
+    "generate-express-boilerplate": "index.js"
+  },
+  "scripts": {
+    "generate-express-boilerplate": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "boilerplate",
+    "node",
+    "javascript",
+    "app"
+  ],
+  "author": "S Jenish Patel",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
